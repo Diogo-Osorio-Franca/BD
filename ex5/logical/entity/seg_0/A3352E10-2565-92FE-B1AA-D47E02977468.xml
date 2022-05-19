@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3352E10-2565-92FE-B1AA-D47E02977468" name="livro_autor">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 11:29:50 UTC</createdTime>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_autor" id="278E2FE2-ED37-BE87-AB5A-67722400CF77">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 11:31:16 UTC</createdTime>
+<generatorID>CA1D499C-E781-D2A0-7153-7F80B0303D31</generatorID>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<referedAttribute>5A1EF1A0-D8DE-CA80-E927-F523D2507E80</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_livro" id="203193F4-276A-C974-4E78-D549847C2658">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 11:31:25 UTC</createdTime>
+<generatorID>349586AB-7F95-9111-FCFA-24115DD2649D</generatorID>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<referedAttribute>EC17B694-31BE-90A4-B3ED-A0665376AC72</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="630DB038-DFA0-E971-F74F-94D8BD876786" name="livro_autor PK">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 11:31:16 UTC</createdTime>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>278E2FE2-ED37-BE87-AB5A-67722400CF77</attributeRef>
+<attributeRef>203193F4-276A-C974-4E78-D549847C2658</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

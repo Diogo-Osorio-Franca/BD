@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="599B0E5F-D75A-6DE1-F111-561931502C25" name="empréstimo">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 11:38:31 UTC</createdTime>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_emprestimo" id="9B0CBF36-8587-4244-B1AA-8FB40AD251A0">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 11:38:40 UTC</createdTime>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_emprestimo" id="ECE9D875-1331-FCB8-938F-454915EB31E7">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 11:38:50 UTC</createdTime>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_devolucao" id="538C3E48-84A7-379C-6C5E-85FDCC5D6EA9">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 11:39:19 UTC</createdTime>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="BC7FAB64-CC2B-4F78-BAEA-808909869305">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 12:29:52 UTC</createdTime>
+<generatorID>590FA27A-E87C-B271-EA03-74865BCB99D6</generatorID>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<referedAttribute>41C2A687-5839-50F6-3497-42A8FD121A80</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_autor" id="A787837B-5898-EE0B-B9BF-BA06C8F68AFE">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 12:42:00 UTC</createdTime>
+<generatorID>27F8964B-53D1-F0AE-680F-103BF0AEAE2D</generatorID>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<referedAttribute>278E2FE2-ED37-BE87-AB5A-67722400CF77</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_livro" id="D3BA82EA-6FEE-8C98-12C9-A3B55B0CD205">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 12:42:14 UTC</createdTime>
+<generatorID>27F8964B-53D1-F0AE-680F-103BF0AEAE2D</generatorID>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<referedAttribute>203193F4-276A-C974-4E78-D549847C2658</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F8ADC00-2BD0-C90F-46D3-B9DDA3CDC4D7" name="empréstimo PK">
+<createdBy>User</createdBy>
+<createdTime>2022-05-19 11:38:48 UTC</createdTime>
+<ownerDesignName>ex5</ownerDesignName>
+<engineerTo>
+<item key="EEFB3F18-F728-44F1-DB51-0EBADCBF7284" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B0CBF36-8587-4244-B1AA-8FB40AD251A0</attributeRef>
+<attributeRef>BC7FAB64-CC2B-4F78-BAEA-808909869305</attributeRef>
+<attributeRef>A787837B-5898-EE0B-B9BF-BA06C8F68AFE</attributeRef>
+<attributeRef>D3BA82EA-6FEE-8C98-12C9-A3B55B0CD205</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
